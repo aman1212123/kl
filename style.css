@@ -1,0 +1,71 @@
+.container{
+  margin: auto;
+  width: 1150px; 
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.row{
+  display: flex; flex-wrap: wrap;
+}
+.top{
+background-color: #0f2f44; padding: 20px;
+}
+.top .row{
+justify-content: space-between;
+}
+.top p{
+  font-size: 16px;
+}
+
+.nav div .row{
+  justify-content: space-between; align-items: center;
+}
+.nav ul li a{
+  padding: 37px 19px;
+ display: inline-block; 
+}
+.nav ul li button{
+width: 30px; height: 30px; border-radius: 50%;
+text-align: center; margin: 0 10px;
+}
+img{
+  
+}
+.one{
+  background: url(Bizzency.jpg);
+  ; height: 600px; background-size: cover;
+  background-position: center;
+}
+.one .row .div{
+ 
+}
+.h{
+ margin-top: 150px; margin-left: 150px;
+}
+.one button{
+  font-size: 18px; background-color: #8383bf;
+  border-radius: 5px;  height: 46px;
+}
+ 
+.two{
+  height: 700px;
+}
+
+
+.two img{
+  width: 50%; height: 500px;
+   margin-top: 100px; margin-left: 50px;
+}
+
+.side{
+  margin-left: 80px; margin-top: 150px;
+}
+
+.new{ 
+ margin-left: 20px;  background-color: #8383bf;
+ border-radius: 7px; padding: 5px;
+}
